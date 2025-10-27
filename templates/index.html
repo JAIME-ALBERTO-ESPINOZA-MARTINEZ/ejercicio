@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends "base.html" %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+<div class="text-center">
+    <h2>Bienvenido a nuestro sitio web</h2>
+    <p class="lead">Explora animales exóticos, vehículos antiguos y las maravillas del mundo. También puedes registrarte o iniciar sesión.</p>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0" class="img-fluid rounded shadow" alt="Animales exóticos">
+        </div>
+        <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf" class="img-fluid rounded shadow" alt="Vehículos antiguos">
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+</body>
+</html>
+
+

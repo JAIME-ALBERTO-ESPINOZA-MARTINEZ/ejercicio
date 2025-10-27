@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends "base.html" %}
+{% block title %}Las Maravillas del Mundo{% endblock %}
+{% block content %}
+<h2 class="text-center mb-4">Las 7 Maravillas del Mundo Moderno</h2>
+<p>Estas maravillas fueron elegidas por millones de personas alrededor del mundo por su belleza, historia y significado cultural. Representan el ingenio y la creatividad de la humanidad.</p>
+
+<div class="row g-4 mt-4">
+    <div class="col-md-4">
+        <h5>Chichén Itzá (México)</h5>
+        <img src="https://images.unsplash.com/photo-1581291519195-ef11498d1cf5" class="img-fluid rounded shadow" alt="Chichén Itzá">
+        <p>Antiguo centro ceremonial maya. Su pirámide, El Castillo, es un ejemplo de precisión astronómica y arquitectura avanzada.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Coliseo Romano (Italia)</h5>
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" class="img-fluid rounded shadow" alt="Coliseo">
+        <p>Uno de los monumentos más famosos de Roma. Fue escenario de grandes espectáculos de gladiadores durante el Imperio Romano.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Cristo Redentor (Brasil)</h5>
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" class="img-fluid rounded shadow" alt="Cristo Redentor">
+        <p>La icónica estatua que corona el cerro del Corcovado en Río de Janeiro simboliza la paz y la fe del pueblo brasileño.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Gran Muralla China (China)</h5>
+        <img src="https://images.unsplash.com/photo-1563245372-5e4c8e6e98d3" class="img-fluid rounded shadow" alt="Muralla China">
+        <p>Una impresionante construcción de más de 21,000 km de longitud, edificada para proteger el imperio chino de invasores.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Machu Picchu (Perú)</h5>
+        <img src="https://images.unsplash.com/photo-1508264165352-258859e62245" class="img-fluid rounded shadow" alt="Machu Picchu">
+        <p>Ciudad inca enclavada en los Andes. Es un símbolo de la ingeniería y espiritualidad de la civilización inca.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Petra (Jordania)</h5>
+        <img src="https://images.unsplash.com/photo-1568913886987-64d0efbd224a" class="img-fluid rounded shadow" alt="Petra">
+        <p>Ciudad tallada en roca rosada, capital del antiguo reino nabateo, conocida como “la ciudad rosa del desierto”.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Taj Mahal (India)</h5>
+        <img src="https://images.unsplash.com/photo-1504198458649-3128b932f49b" class="img-fluid rounded shadow" alt="Taj Mahal">
+        <p>Construido por el emperador Shah Jahan en honor a su esposa, este mausoleo es un símbolo eterno del amor.</p>
+    </div>
+</div>
+{% endblock %}
+
+</body>
+</html>

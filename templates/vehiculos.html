@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+
+{% block content %}
+{% extends "base.html" %}
+{% block title %}Vehículos Antiguos{% endblock %}
+{% block content %}
+<h2 class="text-center mb-4">Vehículos Antiguos</h2>
+<p>Los vehículos antiguos son testigos del ingenio humano y de la evolución del transporte. A continuación, te presentamos algunos modelos emblemáticos de distintas marcas que marcaron la historia del automovilismo.</p>
+
+<div class="row g-4 mt-4">
+    <div class="col-md-4">
+        <h5>Ford Model T (1908)</h5>
+        <img src="https://images.unsplash.com/photo-1603712725038-e933a92e3e5d" class="img-fluid rounded shadow" alt="Ford Model T">
+        <p>El Ford Model T revolucionó la industria automotriz al ser el primer vehículo producido en masa. Su fabricación permitió que millones de personas pudieran tener un automóvil.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Chevrolet Bel Air (1957)</h5>
+        <img src="https://images.unsplash.com/photo-1570057626763-98aa51a1c768" class="img-fluid rounded shadow" alt="Chevrolet Bel Air">
+        <p>Un ícono del diseño automotriz estadounidense de los años 50, famoso por sus líneas curvas y su estilo lujoso.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Volkswagen Escarabajo (1938)</h5>
+        <img src="https://images.unsplash.com/photo-1571607384705-0c953d2ca1d1" class="img-fluid rounded shadow" alt="Volkswagen Beetle">
+        <p>Creado en Alemania, este vehículo se convirtió en uno de los más vendidos del mundo gracias a su durabilidad y economía.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Cadillac Eldorado (1953)</h5>
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" class="img-fluid rounded shadow" alt="Cadillac Eldorado">
+        <p>Representó el lujo americano en los años 50 y 60. Su diseño elegante y motor potente lo hicieron un símbolo de estatus.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Rolls-Royce Phantom (1925)</h5>
+        <img src="https://images.unsplash.com/photo-1587140909785-6a1adf75d2ab" class="img-fluid rounded shadow" alt="Rolls-Royce Phantom">
+        <p>Considerado uno de los autos más elegantes de la historia, el Phantom se asocia con la perfección en ingeniería y artesanía británica.</p>
+    </div>
+    <div class="col-md-4">
+        <h5>Ferrari 250 GTO (1962)</h5>
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" class="img-fluid rounded shadow" alt="Ferrari 250 GTO">
+        <p>Uno de los automóviles más codiciados del mundo, tanto por su rendimiento en carreras como por su diseño inconfundible.</p>
+    </div>
+</div>
+{% endblock %}
+</body>
+</html>
